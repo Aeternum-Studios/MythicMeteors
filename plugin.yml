@@ -1,4 +1,4 @@
-main: io.github.bananapuncher714.mythicmeteors.MythicMeteors
+main: network.aeternum.mythicmeteors.MythicMeteors
 name: MythicMeteors
 version: 42.0
 author: BananaPuncher714
