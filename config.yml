@@ -1,0 +1,45 @@
+time-min: 10
+time-max: 60
+locations: []
+rewards: []
+bosses: []
+
+messages:
+  command:
+    help:
+    - "&cUsage: /mythicmeteor <start|stop|end|saveexamples>"
+    event-required:
+    - "&1[&9MythicMeteor&1] &cYou must provide an event as an argument!"
+    no-permission:
+    - "&cYou do not have permission to run this command!"
+    invalid-event:
+    - "&1[&9MythicMeteor&1] &c'%0' is not a valid event!"
+    must-be-player:
+    - "&cYou must be a player to run this command!"
+
+    starting-event:
+    - "&1[&9MythicMeteor&1] &aStarting event..."
+    started-event:
+    - "&1[&9MythicMeteor&1] &aStarted event '&e%0&a'"
+ 
+    stopping-events:
+    - "&1[&9MythicMeteor&1] &aStopping events..."
+    stopped-event-naturally:
+    - "&1[&9MythicMeteor&1] &aStopped event '&e%0&a' naturally"
+    stopped-event-forcefully:
+    - "&1[&9MythicMeteor&1] &aStopped event '&e%0&a' forcefully"
+    
+    arguments-required:
+    - "&cYou must provide a valid RewardSet id!"
+    config-usage:
+    - "&cUsage: /mythicmeteor config <set|add|remove|get> <property> [value]"
+  notifications:
+    started-event:
+    - "&1[&9MythicMeteor&1] &c&lA bossfight has begun!"
+    - "&1[&9MythicMeteor&1] &c&lThou foe art approching! be'est on thy guard! "
+    completed-event:
+    - "&1[&9MythicMeteor&1] &a&lYe' be seein' the backs o' them scallywags!"
+    - "&1[&9MythicMeteor&1] &a&lYou hear the fanfare of triumph"
+    - "&1[&9MythicMeteor&1] &a&lThee has't wonneth the battleth"
+    failed-event:
+    - "&1[&9MythicMeteor&1] &cYou failed to defeat the special event!"

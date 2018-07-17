@@ -1,0 +1,19 @@
+main: io.github.bananapuncher714.mythicmeteors.MythicMeteors
+name: MythicMeteors
+version: 42.0
+author: BananaPuncher714
+description: 
+depend:
+- "MythicMobs"
+softdepend:
+- "MVdWPlaceholderAPI"
+- "PlaceholderAPI"
+commands:
+  mythicmeteor:
+    description: Spawn your meteors and mobs
+    
+permissions:
+  mythicmeteors.admin:
+    default: op
+  mythicmeteors.manage:
+    default: op
