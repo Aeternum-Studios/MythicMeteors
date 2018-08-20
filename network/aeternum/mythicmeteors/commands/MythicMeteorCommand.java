@@ -165,7 +165,6 @@ public class MythicMeteorCommand implements CommandExecutor {
 			return;
 		}
 
-		sender.sendMessage( MythicMeteors.thWord( "command.starting-event", sender, args[ 1 ] ) );
 		new BukkitRunnable() {
 			Location spawn = location.clone();
 			boolean init = false;

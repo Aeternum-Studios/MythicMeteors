@@ -1,6 +1,6 @@
 main: network.aeternum.mythicmeteors.MythicMeteors
 name: MythicMeteors
-version: 42.0
+version: 1.1
 author: BananaPuncher714
 description: 
 depend:
